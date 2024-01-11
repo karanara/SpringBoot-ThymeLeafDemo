@@ -9,21 +9,23 @@ Spring MVC:
    A set of webpages to layout UI component
    collection of spring beans such as controller,services
    configuration such as pom.xml and java annotations.
+
+   
    Spring MVC Front Controller :
        Front controller known as Dispatcher Servlet.
        Model --- contains our data[container]
                  Store/retrieve data via backend systems
-                 Place our data in the model
-                 
+                 Place our data in the model   
        View--- Spring MVC is flexible 
                Supports many view templates
                Recommended: Thymeleaf
                Developer creates a page and Displays data
-
        Controller---handles the request
                     stores data/retrive the data
                     place data in model
                     sends to appropiate view template.
+
+                    
 Spring MVC is also used for databinding
        we have to use model atrribute which is a type of bean that will hold form data used for data binding.
        When form is loaded,Spring MVC will read student from the model, then calls get methods.
